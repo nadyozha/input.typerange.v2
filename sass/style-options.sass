@@ -1,0 +1,62 @@
+
+body
+	background: #000D16
+	height: 100vh
+	display: flex
+	font-display: column
+	justify-content: center
+	align-items: center
+*
+	outline: none
+.cart
+	background: rgba(255, 255, 255, 0.1)
+	border-radius: 12px
+	padding: 50px
+
+
+
+//slider
+//активная полоса прогресса
+.noUi-connect
+	background: #FFDE8A
+	border-radius: 5px 0 0 5px
+	height: 5px
+//длинна инпута
+.noUi-base
+	background: rgba(255, 255, 255, 0.38)
+	border-radius: 5px
+//главная полоса инпута
+.noUi-target
+	height: 5px
+	background: rgba(255, 255, 255, 0.38)
+	border-radius: 5px
+	border: none
+	box-shadow: none
+//блок для ползунка
+.noUi-horizontal
+	.noUi-handle
+		width: 37px
+		height: 37px
+		background: linear-gradient(315.41deg, #FFDE8A 6.99%, #FFFFFF 148%)
+		top: -16px
+		right: -10px
+		border-radius: 11px
+		border: 4px solid #FFDE8A
+		box-shadow: -1px 7px 23px -5px rgba(255, 222, 138, 0.31)
+		&:before, &:after
+			display: none
+//ползунок
+.noUi-touch-area
+	display: none
+//noUi-tooltip
+.noUi-tooltip
+	background: transparent
+	border: none
+	font-weight: 300
+	font-size: 55px
+	line-height: 67px
+	text-transform: uppercase
+	color: #FFDE8A
+	&:before
+		content: "$ "
+	
